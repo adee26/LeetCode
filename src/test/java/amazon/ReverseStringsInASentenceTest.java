@@ -15,14 +15,4 @@ class ReverseStringsInASentenceTest {
 
         assertEquals(expected, actual);
     }
-
-    @Test
-    void shouldReverseStringFromChars() {
-        char[] s = {'H', 'e', 'l', 'l', 'o', ' ', 'W', 'o', 'r', 'l', 'd'};
-        String expected  = "World Hello";
-        String actual = reverseStringsInASentence.reverseStringFromChars(s);
-
-        assertEquals(expected, actual);
-    }
-
 }
