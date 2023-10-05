@@ -26,12 +26,12 @@ public class Fibonacci {
         return firstNumber;
     }
 
-    public long findFibonacciUsingRecursion(long n) {
+    public long findFibonacciUsingRecursion(long n) { //5 -> 4           1 + 0 + 1
         if(n == 0 || n == 1) {
             return n;
         }
 
-        return findFibonacciUsingRecursion(n-2) + findFibonacciUsingRecursion(n-1);
+        return findFibonacciUsingRecursion(n-2) + findFibonacciUsingRecursion(n-1); //3
     }
 
     public long findFibonacciUsingDynamicProgramming(long n) {
